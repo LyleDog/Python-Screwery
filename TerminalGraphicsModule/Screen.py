@@ -39,7 +39,7 @@ def start():
 		x = 40
 		y = 25
 	else:
-		print("Are you retarded? Defaulting to 20x20")
+		print("Are you serial? Defaulting to 20x20")
 		input("...")
 		x = y = 20
 	screen = makeScreen(x,y)

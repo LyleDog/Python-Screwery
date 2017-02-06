@@ -32,7 +32,12 @@ def createProjection(world, clippingplane):
 	return projection
 	
 def ProjectiontoScreen(projection, screen, clippingplane):
-	
+		"""
+		Projection to Screen works by first eliminating all the vertices which lie outside of the clipping plane
+		"""
+	p2c
+	for i in range(1,len(projection)):
+		
 	return screen
 	
 ##DEBUG ZONE
