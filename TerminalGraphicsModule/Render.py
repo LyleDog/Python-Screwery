@@ -32,20 +32,18 @@ def createProjection(world, clippingplane):
 	return projection
 	
 def ProjectiontoScreen(projection, screen, clippingplane):
-		"""
-		Projection to Screen works by first eliminating all the vertices which lie outside of the clipping plane
-		"""
-	p2c
-	for i in range(1,len(projection)):
-		
+	"""
+	Projection to Screen works by first eliminating all the vertices which lie outside of the clipping plane
+	"""
+	
+	
 	return screen
 	
 ##DEBUG ZONE
-"""
+
 input("ENTERING DEBUG\n")
 screen = [[0]*5,[0]*5,[0]*5]
 clippingplane = createClippingplane(float(input("Clipping Plane Width? (height calculated automatically)\n")),screen,float(input("Clipping Plane Distance?\n")))
 projectedvertex = projectVertex([float(input("x?")),float(input("y?")),float(input("z?"))],clippingplane)
 print(projectedvertex)
 input("DONE")
-"""
