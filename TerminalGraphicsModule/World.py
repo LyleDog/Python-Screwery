@@ -13,8 +13,8 @@ def loadModel(model, world):													##MODEL is a PATH. WORLD is a dictionar
 	return world
 
 def printWorld(world):															##prints all vertices all organized and delicious
-	for i in range(1,len(world)+1):
-		print("vert{}:".format(i) ,world["vert{}".format(i)])
+	for key in world:
+		print(key, ":" ,world[key])
 	return 0
 	
 

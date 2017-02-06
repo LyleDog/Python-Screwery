@@ -20,6 +20,7 @@ clippingplane = Render.createClippingplane(float(input("Width of clipping plane?
 print("clippingplane =", clippingplane)
 input("Cleared?\n")
 os.system("cls")
+world = Render.chooseVertices(world,clippingplane)
 projection = {}
 projection = Render.createProjection(world,clippingplane)
 World.printWorld(projection)
