@@ -21,7 +21,10 @@ def makeScreen(x,y):
 	return screen
 	
 def start():
-	os.chdir("C:\\Users\\Batarda\\Desktop\\Python-Screwery\\TerminalGraphicsModule")
+	##Using relative paths in order to open the versioninfo.txt file
+	dirPath = os.path.dirname(os.path.abspath(__file__))
+	os.chdir(dirPath)
+	
 	print((open("VersionInfo.txt","r").read()), "\n")
 	choice = int(input("""Select Resolution:
 	1. 15x15
