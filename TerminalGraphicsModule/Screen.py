@@ -21,7 +21,7 @@ def makeScreen(x,y):
 	return screen
 	
 def start():
-	##Using relative paths
+	##Using relative paths in order to open the versioninfo.txt file
 	dirPath = os.path.dirname(os.path.abspath(__file__))
 	os.chdir(dirPath)
 	
