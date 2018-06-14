@@ -5,4 +5,4 @@ Current projects:
 		Collection of modules which allow for the usage of graphics within a terminal.
 		In other words, it allows you to render basic images through the use of an array of ASCII characters.
 		
-Owner: Lyle
+		This was started before I had much knowledge of Python, and Python was chosen as a language only because it easy to pick up and use (wrongly).
