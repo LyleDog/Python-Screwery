@@ -1,5 +1,4 @@
-TerminalGraphicsModule by Fucking Kill Yourself.
-			Just KYS.
+TerminalGraphics Experiment
 	Version					1e-10
-	Distro Name				Kuntkulator
+	Distro Name				
 	Comments				No.
